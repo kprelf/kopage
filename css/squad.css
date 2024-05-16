@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.header {
+  width: 1920px;
+  height: 50px;
+  background-color: #a71e25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headcon {
+  display: flex;
+  align-items: center;
+}
+.headcon .headleft,
+.squad,
+.schedule,
+.free {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+}
+.headlogin {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-right: 30px;
+}
+.headcon > a > img {
+  width: 48px;
+  height: 48px;
+  margin-left: 60px;
+}
+.headtext {
+  display: flex;
+  align-items: center;
+}
+/*header end*/
+main {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+.squadlist {
+  background-color: #a71e25;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin: 10px 0 10px 0;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.position-list {
+  list-style-type: none;
+  padding: 0;
+}
+.player img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.player span {
+  margin-left: auto;
+}
+.position {
+  margin-bottom: 20px;
+}
+h2 {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+.player-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.player {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.player:before {
+  content: "•";
+  color: black;
+  margin-right: 10px;
+}
+/*main end*/
+.footer {
+  width: 1920px;
+  height: 50px;
+  background-color: #a71e25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  padding-bottom: -50px;
+}
+.footcenter {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
